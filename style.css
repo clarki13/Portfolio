@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    background-color: #333;
+    color: white;
+}
+
+.logo img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+}
+
+.nav-links a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #555;
+}
+
+/* Main Section Styles */
+.about {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #e5e5e5; /* Light grey for main content background */
+}
+
+#home, #project {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* About Section Styles */
+.about-section {
+    display: flex;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.about.profile-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Makes the image oval */
+    border: 5px solid #333; /* Frame around the profile picture */
+    object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+.about-content {
+    flex: 2;
+}
+
+.about-content h3 {
+    color: #ff5e5e;
+    margin-bottom: 10px;
+}
+
+.about-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Skills Section Styles */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    flex: 1 1 45%;
+}
+
+.skill h4 {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.skill p {
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #8c8c8c; /* Matching header color */
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 0.9em;
+}
